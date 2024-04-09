@@ -5,6 +5,7 @@ word_list = ['apple', 'banana', 'orange', 'grape', 'strawberry']
 word = random.choice(word_list)
 
 def main():
+    
     guess = ask_for_input()
 
     check_guess(guess)

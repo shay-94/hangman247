@@ -9,5 +9,11 @@ File Structure:
 
 The program is broken into multiple functions, the 'main' function encapsulates the other functions and is what we call to run the program.
 The other functions are:
-ask_for_input - asks the user for their guess and ensures that it isn't a number or special character
-check_guess - checks the guessed letter to see if it is in the word, returns a string telling the user whether they were correct or not
+
+ask_for_input() - asks the user for their guess and ensures that it isn't a number or special character. Calls check_guess function and updates the 
+                word_list variable that stores the '_''s that are displayed to the player with their correct guesses
+
+check_guess() -   checks the guessed letter to see if it is in the word, returns a string telling the user whether they were correct or not.
+                It also updates the number of lives counter and the number of letters left to guess counter.
+
+
