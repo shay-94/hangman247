@@ -17,3 +17,9 @@ check_guess() -   checks the guessed letter to see if it is in the word, returns
                 It also updates the number of lives counter and the number of letters left to guess counter.
 
 play_game() - the main function that contains the loop for the game while checking whether the player has won or lost all their lives
+
+
+*NOTE* 
+
+I've added some extra functionality outside the given scope of the project. I've added a play_again() function that asks the player if they want to play again and
+if they do, resets the game. I've also added diagrams for the stages of the hangmans fate as you play the game.
