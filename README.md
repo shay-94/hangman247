@@ -3,7 +3,7 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
 
-No installation required, just run the python file in your terminal window and follow the prompts. Good luck!
+Add your list of words to the play_game() function call on line 57 and run the python file in your terminal window then follow the prompts. Good luck!
 
 File Structure:
 
@@ -16,4 +16,4 @@ ask_for_input() - asks the user for their guess and ensures that it isn't a numb
 check_guess() -   checks the guessed letter to see if it is in the word, returns a string telling the user whether they were correct or not.
                 It also updates the number of lives counter and the number of letters left to guess counter.
 
-
+play_game() - the main function that contains the loop for the game while checking whether the player has won or lost all their lives
